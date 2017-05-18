@@ -3,8 +3,9 @@
 
   if (window.cordova) { // We're in PhoneGap
     //var url = "http://howtowat.ch/api/1/find/recent";
+	 var url = "https://raw.githubusercontent.com/sg-garg/PPGApp/master/recent.txt"; 
 	 alert("In PhoneGap");
-	var url = "recent.txt";
+	//var url = "recent.txt";
   } else {
 	  alert("In desktop");
     var url = "recent.txt";
